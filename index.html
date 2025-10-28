@@ -14,11 +14,37 @@
 
 
     <div class="container nav">
+
+
+
       <div class="brand">
+      
+        <!--
+        Burger menu, for small screens. All magic is done in CSS.
+        -->
+        <div id="menuToggle">
+          <input type="checkbox" id="menuCheckbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+            <ul id="menu">
+              <li><a href="#program"> <label for="menuCheckbox" onclick="this.parentNode.click();">Program</label></a></li>  
+              <li><a href="#about"><label for="menuCheckbox" onclick="this.parentNode.click();">About</label></a></li>
+              <li><a href="#speakers"><label for="menuCheckbox" onclick="this.parentNode.click();">Speakers</label></a></li>
+              <li><a href="#submission"><label for="menuCheckbox" onclick="this.parentNode.click();">Submission</label></a></li>
+              <li><a href="#organisers"><label for="menuCheckbox" onclick="this.parentNode.click();">Organisers</label></a></li>
+              <li><a href="#committee"><label for="menuCheckbox" onclick="this.parentNode.click();">Program Committee</label></a></li>
+              <li><a href="#sponsors"><label for="menuCheckbox" onclick="this.parentNode.click();">Sponsors</label></a></li>
+              <li><a href="#contact"><label for="menuCheckbox" onclick="this.parentNode.click();">Contact</label></a></li>
+            </ul>
+        </div>
+
         <div class="logo">XAI4S</div>
+        
         <div>
           <div style="font-weight:700">XAI4Science2026</div>
         </div>
+
       </div>
 
     
@@ -31,9 +57,12 @@
         <a href="#committee">Program Committee</a>
         <a href="#sponsors">Sponsors</a>
         <a href="#contact">Contact</a>
-      </nav>
+
+        </nav>
 
     </div>
+
+
 
   </header>
 
@@ -52,7 +81,7 @@
         
         <div class="meta">
           <div>📍 Tampere, Finland</div>
-          <div>🗓 March ???, 2026</div>
+          <div>🗓 March 24, 2026</div>
         </div>
 
           <div style="margin-top:1rem;display:flex;gap:.6rem">
@@ -64,10 +93,11 @@
         <div class="card">
           <strong>Important deadlines</strong>
           <ul style="margin:.5rem 0 0;padding-left:1.1rem;color:var(--muted)">
-            <li>Abstract due: ???? </li>
-            <li>Full paper due: ????</li>
-            <li>Notifications:  ????</li>
-            <li>Camera-ready:  ???? </li>
+
+            <li>Paper due: 01/05/2026</li>
+            <li>Notifications: 02/02/2026</li>
+            <li>Camera-ready: 02/17/2026 </li>
+
           </ul>
         </div>
       </aside>
@@ -126,9 +156,7 @@ The XAI4Science workshop aims to bring together researchers, practitioners, and 
       <div class="card">
         <h3 style="margin-top:0">Submission types</h3>
         <ul style="color:var(--muted)">
-          <li><strong>Full papers</strong> — up to 8 pages (including references)</li>
-          <li><strong>Short papers</strong> — up to 4 pages (including references)</li>
-          <li><strong>Posters/Demos</strong> — 1–2 page extended abstract</li>
+          <li><strong>Full papers</strong> — up to 6 pages (including references)</li>
         </ul>
         <h3>Submission process</h3>
         <ol style="color:var(--muted)">
