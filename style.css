@@ -14,7 +14,7 @@
   .container{max-width:1300px;margin:0 auto;padding:1rem}
   .nav{display:flex;gap:1rem;align-items:center;justify-content:space-between}
   .brand{display:flex;gap:.75rem;align-items:center}
-  .brand .logo{width:60px;height:44px;background:var(--accent);border-radius:8px;display:grid;place-items:center;color:white;font-weight:700}
+  .brand .logo{width:140px;height:44px;background:var(--accent);border-radius:8px;display:grid;place-items:center;color:white;font-weight:700}
   nav a{color:var(--muted);text-decoration:none;padding:.5rem .6rem;border-radius:6px}
   nav a:hover{color:var(--accent);background:rgba(43,108,176,0.06)}
   .cta{background:var(--accent);color:#fff;padding:.5rem .9rem;border-radius:8px;text-decoration:none}
@@ -81,7 +81,7 @@
         margin-bottom: 5px;
         position: relative;
         
-        background: #cdcdcd;
+        background: #6a6a6a;
         border-radius: 3px;
         
         z-index: 1;
